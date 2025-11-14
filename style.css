@@ -1,0 +1,58 @@
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+h1{
+    color: #6b6b6b;
+    font-size: 2.4rem;
+    margin-bottom: 2.3rem;
+}
+
+#choices{
+    margin-bottom: 2rem;
+}
+
+.emoji{
+    font-size: 70px;
+    background-color: #9bbd75;
+    border-radius: 50%;
+    padding: 20px 40px;
+    margin: 19px;
+    cursor: pointer;
+    box-shadow: 8px 5px 17px -3px rgba(0,0,0,0.56);
+    transition: all .19s;
+}
+
+.emoji:hover{
+    background-color: #708e4e;
+}
+
+#playerDisplay{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#computerDisplay{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#resultDisplay{
+    font-size: 40px;
+    margin: 19px 0;
+}
+
+#playerScore{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#computerScore{
+    font-size: 20px;
+    font-weight: bold;
+}
+
